@@ -1,0 +1,58 @@
+body{
+background: url(images/bg2.jpg)no-repeat;
+background-size: cover;
+margin: 0;
+padding: 0;
+}
+nav{
+
+}
+.logo{
+    color: white;
+    font-weight: bold;
+    margin: 40px 20px;
+    float: left;
+    padding-left: 40px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px #A50200, 0 0 15px #A50200,0 0 20px #A50200;
+}
+.menu{
+
+}
+nav ul{   
+     list-style: none;
+     display: flex;
+     float: right;
+
+}
+nav ul li{
+    margin: 30px 15px;
+font-size: 18px;
+border-radius: 15px;
+}
+nav ul li:last-child{
+    margin-right: 40px;
+
+}
+nav ul li a{
+text-decoration: none;
+position: relative;
+    color: white;
+    letter-spacing: 4px;
+    overflow: hidden;
+    padding: 15px 20px;
+    border-radius: 15px;
+    transition: 0.2s;
+    overflow: hidden;
+}
+nav ul li a:hover{
+border-radius: 15px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    box-shadow:  0 0 10px white, 0 0 15px white, 0 0 20px white;
+
+
+
+}
